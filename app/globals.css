@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+picture,
+img,
+svg {
+  @apply select-none;
+}

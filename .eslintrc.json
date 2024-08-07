@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": [
+    "next",
+    "airbnb-base/legacy",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "error"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cva", "cn"]
+    }
+  }
+}
