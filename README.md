@@ -2,6 +2,10 @@
 
 This project is a Next.js application configured with Class Variance Authority (CVA), ESLint, Prettier, and Tailwind CSS.
 
+## Preview
+
+Open [https://next-boilerplate-sooty.vercel.app/](https://next-boilerplate-sooty.vercel.app/) for preview.
+
 ## Installation
 
 To get started, clone the repository and install the dependencies:
